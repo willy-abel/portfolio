@@ -86,11 +86,15 @@ float: left;
 width: 70%;
 }
 
-.sleft, .sright, .sousleft, .sousright{
+.cleft, .cright, .sousleft, .sousright{
     float: left;
     width: 50%;
 }
-
+.sec::after, exp::after, .reco::after{
+    content: " ";
+    display: table;
+    clear:both;
+}
 
 
 @media screen and(max-width: 780px){
